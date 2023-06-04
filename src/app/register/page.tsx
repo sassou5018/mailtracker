@@ -45,7 +45,7 @@ export default async function Register(){
                     </div>
                 </form>
                 </div>
-                <p>Open Source Email tracking and read reciept tool. More in <Link href="https://github.com/sassou5018/mailtracker">Github</Link></p>
+                <p>Open Source Email tracking and read reciept tool. More in <Link href="https://github.com/sassou5018/mailtracker" className="link">Github</Link></p>
             </div>
         </main>
     )

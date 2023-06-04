@@ -215,7 +215,7 @@ export default function Page() {
                         <p className='text-xs max-w-lg text-center mt-5'>
                             We&apos;re not saving your SMTP Information for now.
                             Check the{' '}
-                            <Link href='#' className='link'>
+                            <Link href='https://github.com/sassou5018/mailtracker' className='link'>
                                 Github
                             </Link>{' '}
                             for the source code and for trustworthy links.

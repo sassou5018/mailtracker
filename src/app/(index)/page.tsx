@@ -30,7 +30,7 @@ export default async function Home() {
   
   return (
     <main className="bg-base-100 flex flex-col justify-center items-center">
-      <div className="w-full p-1">
+      <div className="w-2xl p-1">
       {/* @ts-expect-error Async Server Component */}
       <TrackerTableAutoFill />
       </div>

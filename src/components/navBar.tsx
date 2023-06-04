@@ -32,10 +32,10 @@ export default function NavBar(){
                                     className='menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52'
                                 >
                                     <li>
-                                        <Link href="#">Home</Link>
+                                        <Link href="/">Home</Link>
                                     </li>
                                     <li>
-                                        <Link href="#">About</Link>
+                                        <Link href="https://github.com/sassou5018/mailtracker">Github</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -77,7 +77,7 @@ export default function NavBar(){
                                 </div>
                             </label>
                             <ul className="menu menu-sm dropdown-content p-2 shadow bg-base-300 rounded-box w-52" tabIndex={0}>
-                                    <li><Link href="#">Profile Settings</Link></li>
+                                    {/* <li><Link href="#">Profile Settings</Link></li> TODO */}
                                     <li><SignOutLink/></li>
                             </ul>
                             </div>

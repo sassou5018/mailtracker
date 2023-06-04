@@ -31,6 +31,9 @@ export default async function Register(){
     return(
         <main>
             <div  className=" h-screen flex flex-col justify-center items-center bg-base-100">
+                <div>
+                    <h1 className="text-4xl">MailTrackJS</h1>
+                </div>
                 <div className="bg-base-300 rounded-xl">
                 <h1 className="text-center text-xl p-2">Register</h1>
                 <form action={registerAction} className="flex flex-col items-center p-5">
@@ -42,6 +45,7 @@ export default async function Register(){
                     </div>
                 </form>
                 </div>
+                <p>Open Source Email tracking and read reciept tool. More in <Link href="https://github.com/sassou5018/mailtracker">Github</Link></p>
             </div>
         </main>
     )

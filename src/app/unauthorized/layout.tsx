@@ -1,10 +1,10 @@
-import './globals.css'
+import '../globals.css'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'MailTrackJS - Open Source Email Tracking',
+  title: 'MailTrackJS - Unauthorized',
   description: 'Open source email read receipts and link tracking',
 }
 

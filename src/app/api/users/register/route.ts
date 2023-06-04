@@ -4,7 +4,7 @@ import prisma from "@/utils/prisma";
 import { hash } from "@/utils/authUtils";
 
 
-export default async function POST(request: NextRequest){
+export async function POST(request: NextRequest){
     console.log("yeeeeeeeeeehaaaaaw")
     const {username, password} = await request.json();
     if(!username || !password) return NextResponse.json({status: 400, body: {error: "Username and password are required"}})
